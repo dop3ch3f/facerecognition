@@ -9,8 +9,8 @@ export default class Rank extends Component {
     render() {
         return (
             <div>
-                <div className='white f3'>{'Andrei, your current rank is..'}</div>
-                <div className='white f1'>{'#5'}</div>
+                <div className='white f3'>{`${this.props.name}, your current entry count is..`}</div>
+                <div className='white f1'>{`${this.props.entries}`}</div>
             </div>
         )
     }
