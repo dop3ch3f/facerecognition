@@ -24,7 +24,7 @@ export default class Registration extends Component {
     }
 
     onSubmitRegister = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://mysterious-sands-28972.herokuapp.com/register', {
             method: "post",
             headers: {
                 'Content-Type': 'application/json'
